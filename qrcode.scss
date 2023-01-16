@@ -1,6 +1,7 @@
 $font: 'Outfit','Montserrat Alternates', sans-serif;
 body{
     background-color: rgb(143, 175, 207);
+    font-family: $font;
 }
 .container{
     width: 500px;
@@ -16,20 +17,20 @@ body{
         width: 400px;
         height: 400px;
         margin: 0 auto;
-    }
-    .qr-code-img img{
-        border-radius: 25px;
-        width: 100%;
+        & img{
+            border-radius: 25px;
+            width: 100%;
+        }
     }
     .qr-code-footprint{
         text-align: center;
         font-size: 30px;
         color:hsl(220, 15%, 55%);
-    }
-    .qr-code-footprint p:first-child{
-        font-weight: bold;
-        font-size: 35px;
-        color:#000;
+        & p:first-child{
+            font-weight: bold;
+            font-size: 35px;
+            color:#000;
+        }
     }
 }   
 
@@ -43,6 +44,7 @@ body{
 
     .qr-code-img{
         width: 80%;
+        height: 250px;
         margin: 0 auto;
     }
 

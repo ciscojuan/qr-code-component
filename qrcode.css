@@ -1,5 +1,6 @@
 body {
   background-color: rgb(143, 175, 207);
+  font-family: "Outfit", "Montserrat Alternates", sans-serif;
 }
 
 .container {
@@ -12,21 +13,21 @@ body {
   margin: 100px auto;
   padding: 40px;
 }
-.container .qr-code-img {
+.qr-code-img {
   width: 400px;
   height: 400px;
   margin: 0 auto;
 }
-.container .qr-code-img img {
+.qr-code-img img {
   border-radius: 25px;
   width: 100%;
 }
-.container .qr-code-footprint {
+.qr-code-footprint {
   text-align: center;
   font-size: 30px;
   color: hsl(220deg, 15%, 55%);
 }
-.container .qr-code-footprint p:first-child {
+.qr-code-footprint p:first-child {
   font-weight: bold;
   font-size: 35px;
   color: #000;
@@ -41,6 +42,7 @@ body {
   }
   .qr-code-img {
     width: 80%;
+    height: 250px;
     margin: 0 auto;
   }
   .qr-code-img img {

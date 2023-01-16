@@ -1,65 +1,65 @@
 $font: 'Outfit','Montserrat Alternates', sans-serif;
 body{
     background-color: rgb(143, 175, 207);
-    .container{
-        width: 500px;
-        height: 650px;
-        background-color: hsl(0, 0%, 100%);
-       /*  border: 1px solid #000; */
-        box-shadow: 1px 1px 5px #000;
+}
+.container{
+    width: 500px;
+    height: 650px;
+    background-color: hsl(0, 0%, 100%);
+   /*  border: 1px solid #000; */
+    box-shadow: 1px 1px 5px #000;
+    border-radius: 25px;
+    margin: 100px auto;
+    padding: 40px;
+
+    .qr-code-img{
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .qr-code-img img{
         border-radius: 25px;
-        margin: 100px auto;
-        padding: 40px;
+        width: 100%;
+    }
+    .qr-code-footprint{
+        text-align: center;
+        font-size: 30px;
+        color:hsl(220, 15%, 55%);
+    }
+    .qr-code-footprint p:first-child{
+        font-weight: bold;
+        font-size: 35px;
+        color:#000;
+    }
+}   
 
-        .qr-code-img{
-            width: 400px;
-            height: 400px;
-            margin: 0 auto;
-        }
-        .qr-code-img img{
-            border-radius: 25px;
-            width: 100%;
-        }
-        .qr-code-footprint{
-            text-align: center;
-            font-size: 30px;
-            color:hsl(220, 15%, 55%);
-        }
-        .qr-code-footprint p:first-child{
-            font-weight: bold;
-            font-size: 35px;
-            color:#000;
-        }
-    }   
+@media screen and (max-width: 600px) {
+    .container{
+        width: 80%;
+        height: 500px;
+        padding: 10px;
+        margin: auto auto;
+    }
 
-    @media screen and (max-width: 600px) {
-        .container{
-            width: 80%;
-            height: 500px;
-            padding: 10px;
-            margin: auto auto;
-        }
+    .qr-code-img{
+        width: 80%;
+        margin: 0 auto;
+    }
 
-        .qr-code-img{
-            width: 80%;
-            margin: 0 auto;
-        }
+    .qr-code-img img{
+        border-radius: 25px;
+        width: 100%;
+    }
 
-        .qr-code-img img{
-            border-radius: 25px;
-            width: 100%;
-        }
-
-        .qr-code-footprint{
-            text-align: center;
-            font-size: 25px;
-            color:hsl(220, 15%, 55%);
-        }
-        .qr-code-footprint p:first-child{
-            font-weight: bold;
-            font-size: 15px;
-            color:#000;
-        }
+    .qr-code-footprint{
+        text-align: center;
+        font-size: 25px;
+        color:hsl(220, 15%, 55%);
+    }
+    .qr-code-footprint p:first-child{
+        font-weight: bold;
+        font-size: 15px;
+        color:#000;
     }
 }
     

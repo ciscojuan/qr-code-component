@@ -1,7 +1,8 @@
 body {
   background-color: rgb(143, 175, 207);
 }
-body .container {
+
+.container {
   width: 500px;
   height: 650px;
   background-color: hsl(0deg, 0%, 100%);
@@ -11,46 +12,47 @@ body .container {
   margin: 100px auto;
   padding: 40px;
 }
-body .container .qr-code-img {
+.container .qr-code-img {
   width: 400px;
   height: 400px;
   margin: 0 auto;
 }
-body .container .qr-code-img img {
+.container .qr-code-img img {
   border-radius: 25px;
   width: 100%;
 }
-body .container .qr-code-footprint {
+.container .qr-code-footprint {
   text-align: center;
   font-size: 30px;
   color: hsl(220deg, 15%, 55%);
 }
-body .container .qr-code-footprint p:first-child {
+.container .qr-code-footprint p:first-child {
   font-weight: bold;
   font-size: 35px;
   color: #000;
 }
+
 @media screen and (max-width: 600px) {
-  body .container {
+  .container {
     width: 80%;
     height: 500px;
     padding: 10px;
     margin: auto auto;
   }
-  body .qr-code-img {
+  .qr-code-img {
     width: 80%;
     margin: 0 auto;
   }
-  body .qr-code-img img {
+  .qr-code-img img {
     border-radius: 25px;
     width: 100%;
   }
-  body .qr-code-footprint {
+  .qr-code-footprint {
     text-align: center;
     font-size: 25px;
     color: hsl(220deg, 15%, 55%);
   }
-  body .qr-code-footprint p:first-child {
+  .qr-code-footprint p:first-child {
     font-weight: bold;
     font-size: 15px;
     color: #000;
